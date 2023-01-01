@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HealthKarma</title>
+    <script src="javascript.js"></script>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      th {
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+<form id = "submissionformid">
+<input type = "text" id = "PersonName"   placeholder= "Please Enter Your Name"/><br/>
+<input type = "text" id = "EmailId"   placeholder= "Please Enter Your Email"/><br/>
+<input type = "text" id = "servicename"   placeholder= "Please Enter the Service Name"/><br/>
+<input type = "text" id = "Price"   placeholder= "Please Enter the Price"/><br/>
+<input type = "text" id = "ProviderName"   placeholder= "Please Enter the ProviderName"/><br/>
+<input type = "text" id = "ProviderStreet"   placeholder= "Please Enter the Street address"/><br/>
+<input type = "text" id = "ProviderCity"   placeholder= "Please Enter the City"/><br/>
+<input type = "text" id = "ProviderState"   placeholder= "Please Enter the State"/><br/>
+<input type = "text" id = "ProviderZipcode"   placeholder= "Please Enter the Zipcode"/><br/>
+<input type = "text" id = "ProviderRating"   placeholder= "Please Enter the Rating"/><br/>
+
+<br/>
+<input type = "button" class = "btnsubmission" value = "postrequest" onclick = "postData()"/>
+</form>
+<br/>
+<br/>
+
+
+<input type = "button" class = "btnsubmission" value = "getrequest" onclick = "getData()"/>
+<table align="center" id="table" border="1"></table>
+</body>
+
+</html>
